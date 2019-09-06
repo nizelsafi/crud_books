@@ -16,7 +16,8 @@ class App extends Component {
       bookData: {},  
       isEditBook: false,  
     }  
-  
+
+      
     this.onFormSubmit = this.onFormSubmit.bind(this);  
   
   }  
@@ -44,7 +45,7 @@ class App extends Component {
         this.setState({  
           response:result,    
           isAddBook: false,  
-          isEditBook: false  
+          isEditBook: false,
         })  
       });  
     } else {

@@ -25,6 +25,8 @@ class AddBook extends React.Component {
   
   }  
   
+
+
   handleChange(event) {  
     const name = event.target.name;  
     const value = event.target.value;  
@@ -45,7 +47,7 @@ class AddBook extends React.Component {
     if (this.state.id) {  
   
       pageTitle = <h2>Edit Book</h2>  
-      actionStatus = <b>Update</b>  
+      actionStatus = <b>Update</b> 
     } else {  
       pageTitle = <h4>Add Book</h4>  
       actionStatus = <b>Save</b>  
