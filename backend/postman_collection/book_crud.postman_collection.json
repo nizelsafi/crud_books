@@ -1,0 +1,84 @@
+{
+	"variables": [],
+	"info": {
+		"name": "book_crud",
+		"_postman_id": "5ebebcc4-af7b-a9e4-8224-fc73a3c2979b",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4080/book",
+			"request": {
+				"url": "http://localhost:4080/book",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"book\" :\n{\n    \"isbn\": 123,\n    \"book_name\": \"book1_name\",\n    \"price\": 100,\n    \"availability\": null,\n    \"author\": \"author_book1\"\n\t}\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4080/books",
+			"request": {
+				"url": "http://localhost:4080/books",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4080/book/12",
+			"request": {
+				"url": "http://localhost:4080/book/12",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4080/book/12",
+			"request": {
+				"url": "http://localhost:4080/book/12",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"book\" :\n{\n    \"isbn\": 1235,\n    \"book_name\": \"book_name\",\n    \"price\": 100,\n    \"availability\": 55,\n    \"author\": \"author_book1\"\n\t}\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4080/book/7",
+			"request": {
+				"url": "http://localhost:4080/book/7",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

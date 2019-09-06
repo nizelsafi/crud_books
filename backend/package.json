@@ -1,0 +1,32 @@
+{
+  "name": "crud_books",
+  "version": "1.0.0",
+  "description": "crud books with reactjs nodejs mysql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nizelsafi/crud_books.git"
+  },
+  "keywords": [
+    "reactjs",
+    "nodejs",
+    "mysql"
+  ],
+  "author": "nizel_safi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nizelsafi/crud_books/issues"
+  },
+  "homepage": "https://github.com/nizelsafi/crud_books#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.2"
+  }
+}
